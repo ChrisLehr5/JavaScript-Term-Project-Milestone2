@@ -1,0 +1,25 @@
+ #placeholder {
+     background-image: url("../media/background.jpg");
+     background-repeat: no-repeat;
+     height: 500px;
+     width: auto;
+ }
+ 
+ h1 {
+     font-family: 'Lacquer', serif;
+     font-size: 50px;
+     color: yellow;
+     background-color: teal;
+ }
+ 
+ #user-input {
+     height: 45px;
+     font-family: 'Lacquer', serif;
+     align-content: center;
+ }
+ 
+ footer {
+     text-align: right;
+     background-color: black;
+     color: white;
+ }

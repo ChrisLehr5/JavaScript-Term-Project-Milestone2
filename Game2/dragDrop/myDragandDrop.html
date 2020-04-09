@@ -1,0 +1,59 @@
+<!--Copyright Christine Largent 2020, School Final Assignment, Reproductions When Credited -->
+<!DOCTYPE html>
+<html>
+<!--The audience is anyone who enjoys creating a picture. I selected a layout that has a large background and elements
+to create a scene. They have different sizes to give the illusion of depth. The color scheme is bright and a simple- nothing
+to ornate or complicated-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/dragDrop.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <title>Creating a Draggable Element</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div class="inner">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <img src="media/Navlogo.png">
+            <p>Drag & Drop Info:</p>
+            <p>This is a drag and drop picture creator.</p>
+            <p>In this game you drag and drop the elements to create a scene.</p>
+            <p></p>
+            <p>Have fun creating your own Smurftastic scene!</p>
+        </div>
+        <p><a href="myHoverOver.html">Link to Where's Waldo Hover Game</a></p>
+    </div>
+    <span id="menu" onclick="openNav()">&#9776; Game Instructions</span>
+    <header>
+        <h1>A Day In The Smurf Village</h1>
+        <h2>Move the smurfs, house, logo, and sun by dragging</h2>
+    </header>
+    <audio controls>
+        <source src="audio/smurf.mp4" type="audio/mp4">
+            Your browser does not support audio element.
+    </audio>
+    <main>
+        <section>
+            <p id="MoveMe1"><img src="media/house.png" /></p>
+            <p id="MoveMe2"><img src="media/papa.png" /></p>
+            <p id="MoveMe3"><img src="media/smurfette.png" /></p>
+            <p id="MoveMe4"><img src="media/sun.png" /></p>
+            <p id="MoveMe5"><img src="media/brainy.png" /></p>
+            <p id="MoveMe6"><img src="media/handy.png" /></p>
+            <p id="MoveMe7"><img src="media/logo.png" /></p>
+        </section>
+    </main>
+    <script type="text/javascript" src="js/dragDrop.js"></script>
+</body>
+<footer><small>&#169 Christine Largent 2020, Reproductions When Credited</small></footer>
+
+</html>
+<!--Audio Works Cited: 
+    Music: The Smurfs Theme Song Website: https://www.youtube.com/watch?v=KjpVWKS_I7M -->

@@ -1,0 +1,15 @@
+Purpose:
+This game is a text based adventure game. 
+You type in the commands to move your character around and interact with the world. 
+Choose your options wisely, as some options have dire consequences!
+There is a help menu and interface commands that display what your character current inventory. 
+
+Issues:
+The game is pretty short and somewhat stilted. It needs to be expanded quite abit, and the npc characters need to be fleshed out. 
+
+Future Releases:
+Expanding the world and the characters. 
+
+Copyright & Reproduction Information:
+Open source. Reproduction allowed, expansion encouraged. 
+

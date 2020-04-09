@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<!--This game is intended for audiences that enjoy puzzles. I have created three different sized
+        arrays - 3x3, 5x5, and 7x7 for this light cube puzzle. I kept the layout clean and simple, and went 
+        with a clear distinct color scheme. 
+
+        For this game I did utilize Stackoverflow and GitHub examples for the JavaScript formulas-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Light Puzzle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/puzzle3.css">
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div class="inner">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../puzzle5/lights5.html">Puzzle 5 x 5 Grid</a>
+            <a href="../puzzle7/lights7.html">Puzzle 7 x 7 Grid</a>
+            <p>The history of lights out:</p>
+            <p>This 5 x 5 grid game was created in 1995 on a handheld by Tiger electronics. A 3 x 3 grid was created in the 1970's - it relies on mathmatics to solve the light chasing method.</p>
+            <p>If a light is on, it must be toggled an odd number of times to be turned off. If a light is off, it must be toggled an even number of times (including none at all) for it to remain off. Several conclusions are used for the game's strategy.</p>
+            <p></p>
+            <p>How to play:</p>
+            <p>Click on the light square to light the cube up, and click again to turn the cube off.</p>
+            <p>When all the lights are in the "on" position - You've won! </p>
+        </div>
+    </div>
+    <span id="menu" class="glow" onclick="openNav()">&#9776; Menu</span>
+
+    <div id="main">
+        <h1 class="glow">Lights Out!</h1>
+        <canvas id="canvas" width="1280" height="1280"></canvas>
+    </div>
+
+    <script src="js/art.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>

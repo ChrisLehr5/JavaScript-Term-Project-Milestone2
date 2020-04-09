@@ -1,0 +1,86 @@
+<!--Copyright Christine Largent 2020, School Final Assignment, Reproductions When Credited -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/myHoverOver.css">
+    <script type="text/javascript" src="js/myHoverOver.js"></script>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div class="inner">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <img src="media/wally.png">
+            <p>Hover & Search:</p>
+            <p>Use your mouse as a magnifying glass to search the image</p>
+            <p>Use the look for panel to keep track of your search</p>
+            <p></p>
+            <p>Have fun finding Waldo & Friends!</p>
+            <p>Good Luck!</p>
+        </div>
+        <p><a href="myDragandDrop.html">Drag & Drop Smurf Game</a></p>
+
+    </div>
+    <span id="menu" onclick="openNav()">&#9776; Game Instructions</span>
+
+    <div class="row">
+        <div class="column" style="background-color: #ff0000 ;">
+            <header>
+                <h1>Where's Waldo?</h1>
+            </header>
+            <div class="img-magnifier-container">
+                <img id="myimage" src="media/waldo.jpeg" width="1000" height="745">
+            </div>
+            <script>
+                magnify("myimage", 3);
+            </script>
+        </div>
+        <div class="column" style="background-color:#0000ff;">
+            <h2>Trojan War</h2>
+            <p>Waldo and Company have stumbled upon the ancient battle for Troy.<br>In the chaos of battle they have become seperated- help find them!</p>
+            <h2>What To Look For:</h2>
+            <label class="container">Shields that spell "ha ha ha"
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+            <label class="container">Trojan Horse
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            <label class="container">Face made from red shields
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            <label class="container">Exclamation point
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            <label class="container">Waldo
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+            <label class="container">Whitebeard
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            <label class="container">Wanda
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            <label class="container">Odlaw
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            <div class="icon">
+                <img src="media/WaldoWide.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+<footer><small>&#169 Christine Largent 2020, Reproductions When Credited</small></footer>
+
+</html>
